@@ -1,0 +1,201 @@
+body {
+   /* background: linear-gradient(to bottom, #d7ffc6, #fff);*/
+   background-image: url("https://thumbs.dreamstime.com/z/blockchain-blurred-white-background-d-illustration-83377792.jpg");
+   font-weight: 900;
+   position: static;
+   background-size: cover;
+   max-width: 100%;
+   text-align: center;
+   color: black;
+}
+
+li {
+   list-style: none;
+   float: left;
+   width: 25%;
+   text-align: center;
+   padding-top: 20px;
+}
+
+nav {
+   height: 45px;
+   background-color: black;
+   margin: auto 0;
+   width: 100%;
+   padding-bottom: 10px;
+}
+
+nav li {
+   float: left;
+   width: 25%;
+   text-align: center;
+   margin: auto 0;
+   margin-top: -5px;
+}
+
+li a {
+   color: white;
+   font-size: 90%;
+   display: block;
+}
+
+li a:hover {
+   color: red;
+}
+
+.link {
+   font-size: 20px;
+}
+
+h1 {
+   margin-left: auto;
+   margin-right: auto;
+   font-weight: 900;
+   font-size: 45px;
+   text-shadow: 1px 2px #8b0000;
+   font-family: Oswald Heavy;
+}
+
+h2 {
+   font-weight: 900;
+   font-size: 45px;
+   text-shadow: 1px 1px #8b0000;
+   font-family: Oswald Heavy;
+}
+
+h3 {
+   font-weight: 900;
+   font-size: 45px;
+   text-shadow: 1px 1px #8b0000;
+   font-family: Oswald Heavy;
+}
+
+h4 {
+   font-weight: 900;
+   font-size: 45px;
+   text-shadow: 1px 1px #8b0000;
+   font-family: Oswald Heavy;
+}
+
+.subheader {
+   font-size: 25px;
+   font-style: italic;
+   text-shadow: .5px 1px #007faa;
+}
+
+.subheader2 {
+   font-size: 20px;
+   text-shadow: .5px 1px #007faa;
+}
+
+table {
+   margin: 20px auto;
+   padding: 10px;
+   border-radius: 5px;
+   font-weight: 800;
+   background-color: #ffffff;
+   border: 5px solid #007fAA;
+}
+
+th {
+   padding: 15px;
+}
+
+td {
+   padding: 8px;
+}
+
+form {
+   font-weight: 800;
+   font-size: 15px;
+}
+
+fieldset {
+   border: none;
+}
+
+label {
+   color: #8b0000;
+   text-shadow: 1px 1px black;
+   font-size: 20px;
+   font-weight: 700;
+   margin-right: 5px;
+}
+
+input {
+   margin: 20px auto;
+   text-align: center;
+   border-radius: 5px;
+   font-size: 15px;
+}
+
+input:focus {
+   background-color: #007faa;
+   color: white;
+}
+
+.buttons {
+   border-radius: 5px;
+}
+
+.buttons:hover {
+   background-color: #007faa;
+   color: white;
+}
+
+.firstValue {
+   font-size: 25px;
+   padding: 15px;
+   color: #8b0000;
+   text-shadow: 1px 1px black;
+}
+
+.transbox {
+   background-color: #ffffff;
+   filter: alpha(opacity=80);
+   outline-color: invert;
+   border-radius: 5px;
+   border-color: #8b0000;
+   opacity: .9;
+   padding: 10px;
+   font-weight: 800;
+   border: 7px ridge #007fAA;
+   max-width: 30%;
+   max-height: 30%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.buy {
+   font-size: 20px;
+   color: #8b0000;
+   margin-bottom: 100px;
+}
+
+.crypto {
+   margin-bottom: 100px;
+}
+
+.footer {
+   margin-bottom: 100px;
+}
+
+.difference {
+   text-decoration: italic;
+   font-size: 20px;
+   text-shadow: 1px 1px #007faa;
+}
+
+.fset {
+   border: none;
+}
+
+.values {
+   padding-bottom: 10px;
+}
+
+.exchangeRates {
+   font-size: 20px;
+   color: #8b0000;
+   text-shadow: 1px 1px black;
+}

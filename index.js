@@ -2,7 +2,7 @@ const crypto = "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,
 const starts = "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC&tsyms=USD";
 const histo = "https://api.coindesk.com/v1/bpi/historical/close.json";
 const calcExchange = "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,GBP,CNY,JPY,EUR,TWD,JPY,RUB,CHF,CAD,AUD,SGD";
-const news = "https://newsapi.org/v2/top-headlines?q=bitcoin&apiKey=29b9b388e7c142329c131bb139ff5429"
+const news = "https://newsapi.org/v2/top-headlines?q=bitcoin&language=en&apiKey=29b9b388e7c142329c131bb139ff5429"
 
 function handleNavigation() {
    // select nav elements on"click'
@@ -201,7 +201,6 @@ function showNewsPage() {
 }
 
 
-
 function getNews() {
    $.getJSON(news, function(data) {
       showNews(data);
@@ -213,22 +212,22 @@ function showNews(results) {
    let article = `
   
    
-   <a class="link" href="https://newsapi.org/v2/top-headlines?q=bitcoin&apiKey=29b9b388e7c142329c131bb139ff5429?v="${results.articles[0].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[0].urlToImage}"></a><br />
+   <a class="link" href=""${results.articles[0].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[0].urlToImage}"></a><br />
    
    <a class="link" href="${results.articles[0].url}" target="_blank">${results.articles[0].title}</a><br /><br /><br />
    
    
-    <a class="link" href="https://newsapi.org/v2/top-headlines?q=bitcoin&apiKey=29b9b388e7c142329c131bb139ff5429?v="${results.articles[1].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[1].urlToImage}"></a><br />
+    <a class="link" href="${results.articles[1].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[1].urlToImage}"></a><br />
    
    <a class="title" href="${results.articles[1].url}" target="_blank">${results.articles[1].title}</a><br /><br /><br />
    
   
-    <a class="link" href="https://newsapi.org/v2/top-headlines?q=bitcoin&apiKey=29b9b388e7c142329c131bb139ff5429?v="${results.articles[2].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[2].urlToImage}"</a><br />
+    <a class="link" href="${results.articles[2].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[2].urlToImage}"</a><br />
    
    <a class="title" href="${results.articles[2].url}" target="_blank">${results.articles[2].title}></a><br /><br /><br />
    
    
-    <a class="link href="https://newsapi.org/v2/top-headlines?q=bitcoin&apiKey=29b9b388e7c142329c131bb139ff5429?v="${results.articles[3].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[3].urlToImage}"></a><br />
+    <a class="link href="${results.articles[3].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[3].urlToImage}"></a><br />
    
    <a class="title" href="${results.articles[3].url}" target="_blank">${results.articles[3].title}</a><br /><br /><br />
    

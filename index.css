@@ -58,14 +58,6 @@ h1 {
    font-family: Oswald Heavy;
 }
 
-.subheader {
-   color: black;
-   font-size: 25px;
-   font-style: italic;
-   font-weight: 900;
-   text-shadow: 1px 1px #007faa;
-}
-
 .subheader2 {
    font-size: 25px;
    font-weight: 900;
@@ -155,9 +147,6 @@ input:focus {
    margin-bottom: 100px;
 }
 
-.crypto {
-   margin-bottom: 100px;
-}
 
 .footer {
    margin-bottom: 100px;

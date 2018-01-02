@@ -1,4 +1,5 @@
 body {
+   /* background: linear-gradient(to bottom, #d7ffc6, #fff);*/
    background-image: url("https://mail.google.com/mail/u/0/?ui=2&ik=1bc9c0d66d&view=att&th=160b0ec0e71e2064&attid=0.1&disp=safe&realattid=f_jbvyv9bg0&zw");
    font-weight: 900;
    position: static;
@@ -6,12 +7,14 @@ body {
    max-width: 100%;
    text-align: center;
    color: black;
+   background-attachment: scroll;
+   background-repeat: repeat;
 }
 
 li {
    list-style: none;
    float: left;
-   width: 25%;
+   width: 20%;
    text-align: center;
    padding-top: 20px;
 }
@@ -26,7 +29,7 @@ nav {
 
 nav li {
    float: left;
-   width: 25%;
+   width: 20%;
    text-align: center;
    margin: auto 0;
    margin-top: -5px;
@@ -34,7 +37,7 @@ nav li {
 
 li a {
    color: white;
-   font-size: 90%;
+   font-size: 80%;
    display: block;
 }
 
@@ -55,42 +58,24 @@ h1 {
    font-family: Oswald Heavy;
 }
 
-h2 {
-   font-weight: 900;
-   font-size: 45px;
-   text-shadow: 1px 1px #8b0000;
-   font-family: Oswald Heavy;
-}
-
-h3 {
-   font-weight: 900;
-   font-size: 45px;
-   text-shadow: 1px 1px #8b0000;
-   font-family: Oswald Heavy;
-}
-
-h4 {
-   font-weight: 900;
-   font-size: 45px;
-   text-shadow: 1px 1px #8b0000;
-   font-family: Oswald Heavy;
-}
-
 .subheader {
+   color: black;
    font-size: 25px;
    font-style: italic;
-   text-shadow: .5px 1px #007faa;
+   font-weight: 900;
+   text-shadow: 1px 1px #007faa;
 }
 
 .subheader2 {
-   font-size: 20px;
-   text-shadow: .5px 1px #007faa;
+   font-size: 25px;
+   font-weight: 900;
+   text-shadow: 2px 2px white;
 }
 
 table {
    margin: 20px auto;
    padding: 10px;
-   border-radius: 5px;
+   border-radius: 6px;
    font-weight: 800;
    background-color: #ffffff;
    border: 5px solid #007fAA;
@@ -159,10 +144,9 @@ input:focus {
    padding: 10px;
    font-weight: 800;
    border: 7px ridge #007fAA;
-   max-width: 30%;
-   max-height: 30%;
-   margin-left: auto;
-   margin-right: auto;
+   max-width: 600px;
+   max-height: 600px;
+   margin: 20px auto;
 }
 
 .buy {
@@ -197,4 +181,33 @@ input:focus {
    font-size: 20px;
    color: #8b0000;
    text-shadow: 1px 1px black;
+}
+
+.transbox2 {
+   background-color: #ffffff;
+   filter: alpha(opacity=80);
+   outline-color: invert;
+   border-radius: 5px;
+   border-color: #8b0000;
+   opacity: .9;
+   padding: 10px;
+   font-weight: 800;
+   border: 7px ridge #007fAA;
+   max-width: 600px;
+   margin: 20px auto;
+}
+
+.thumb {
+   display: inline-block;
+   max-width: 200px;
+   max-height: 200px;
+   color: black;
+}
+
+.link {
+   color: black;
+}
+
+.title {
+   color: black;
 }

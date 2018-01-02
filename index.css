@@ -1,7 +1,7 @@
 body {
    /* background: linear-gradient(to bottom, #d7ffc6, #fff);*/
    background-image: url("https://mail.google.com/mail/u/0/?ui=2&ik=1bc9c0d66d&view=att&th=160b0ec0e71e2064&attid=0.1&disp=safe&realattid=f_jbvyv9bg0&zw");
-   font-weight: 900;
+   font-weight: 800;
    position: static;
    background-size: cover;
    max-width: 100%;
@@ -11,34 +11,36 @@ body {
    background-repeat: repeat;
 }
 
+.icon {
+   display: inline-block;
+   width: 80px;
+   height: 50px;
+   margin-left: -80px;
+}
+
 li {
    list-style: none;
-   float: left;
-   width: 20%;
-   text-align: center;
-   padding-top: 20px;
+   float: right;
+   font-weight: 600;
+   padding: 5px;
 }
 
 nav {
-   height: 45px;
+   height: 50px;
    background-color: black;
    margin: auto 0;
-   width: 100%;
-   padding-bottom: 10px;
+   font-weight: 500;
 }
 
 nav li {
-   float: left;
-   width: 20%;
-   text-align: center;
-   margin: auto 0;
-   margin-top: -5px;
+   width: 15%;
 }
 
 li a {
-   color: white;
-   font-size: 80%;
    display: block;
+   color: white;
+   font-size: 15px;
+   padding: 5px;
 }
 
 li a:hover {
@@ -71,7 +73,6 @@ table {
    font-weight: 800;
    background-color: #ffffff;
    border: 5px solid #007fAA;
-   max-width: 800;
 }
 
 th {
@@ -137,7 +138,7 @@ input:focus {
    padding: 10px;
    font-weight: 800;
    border: 7px ridge #007fAA;
-   max-width: 800px;
+   max-width: 600px;
    max-height: 600px;
    margin: 20px auto;
 }
@@ -148,6 +149,9 @@ input:focus {
    margin-bottom: 100px;
 }
 
+.crypto {
+   margin-bottom: 100px;
+}
 
 .footer {
    margin-bottom: 100px;
@@ -183,7 +187,7 @@ input:focus {
    padding: 10px;
    font-weight: 800;
    border: 7px ridge #007fAA;
-   max-width: 800px;
+   max-width: 600px;
    margin: 20px auto;
 }
 
@@ -200,4 +204,8 @@ input:focus {
 
 .title {
    color: black;
+}
+
+#btnCalculateRates {
+   display: inline;
 }

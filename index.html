@@ -17,11 +17,14 @@
 
       <section>
          <nav role="navigation" class="nav-bar" id="nav-start">
-            <li><a data-page="start-page" class="menu" id="start-page" href="#">Home Page</a></li>
-            <li><a data-page="history-page" class="menu" id="history-page" href="#">Historic Data</a></li>
+            <img class="icon" src="https://ak3.picdn.net/shutterstock/videos/32876953/thumb/1.jpg" alt="Red Letter C" />
+            <li><a data-page="news-page" class="menu" id="news-page" href="#" onclick="getNews()">News</a></li>
             <li><a data-page="crypto-page" class="menu" id="crypto-page" href="#" onclick="fetchCryptoExchangeRates()">Crypto Rates</a></li>
             <li><a data-page="calc-page" class="menu" id="calc-page" href="#">Bitcoin Exchange</a></li>
-            <li><a data-page="news-page" class="menu" id="news-page" href="#" onclick="showNewsPage()">News</a></li>
+            <li><a data-page="history-page" class="menu" id="history-page" href="#">Historic Data</a></li>
+            <li><a data-page="start-page" class="menu" id="start-page" href="#">Home Page</a></li>
+
+
          </nav>
       </section>
 
@@ -74,7 +77,6 @@
             </div>
          </form>
       </section>
-
 
       <section class='history-page page'>
          <form class="format" name="h-form" action="#" onsubmit="return false;">
@@ -239,7 +241,7 @@
 
       <section class="news-page page">
          <form class="format" name="n-form" action="#" onsubmit="return false;">
-            <h1>News</h1>
+            <h1>NEWS</h1>
             <p class="subheader2">Today's Top Headlines</p>
          </form>
          <div class="stories transbox2">

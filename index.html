@@ -17,14 +17,12 @@
 
       <section>
          <nav role="navigation" class="nav-bar" id="nav-start">
-            <img class="icon" src="https://ak3.picdn.net/shutterstock/videos/32876953/thumb/1.jpg" alt="Red Letter C" />
+            <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvSCKxQVJKQHVHXmUY01MJi2EuSr8XnSy5E24w5HmCWLfgOsxHmw" alt="red Letter C" />
             <li><a data-page="news-page" class="menu" id="news-page" href="#" onclick="getNews()">News</a></li>
-            <li><a data-page="crypto-page" class="menu" id="crypto-page" href="#" onclick="fetchCryptoExchangeRates()">Crypto Rates</a></li>
             <li><a data-page="calc-page" class="menu" id="calc-page" href="#">Bitcoin Exchange</a></li>
+            <li><a data-page="crypto-page" class="menu" id="crypto-page" href="#" onclick="fetchCryptoExchangeRates()">Crypto Rates</a></li>
             <li><a data-page="history-page" class="menu" id="history-page" href="#">Historic Data</a></li>
             <li><a data-page="start-page" class="menu" id="start-page" href="#">Home Page</a></li>
-
-
          </nav>
       </section>
 
@@ -95,10 +93,6 @@
                      <input type='text' pattern='[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])' name='endDate' class="search" id='endDate' placeholder="YYYY-MM-DD" title="date to end search" required />
                   </div>
                   <br />
-
-
-
-
                   <p class="difference" id="difference" aria-live="assertive" hidden></p>
 
                   <button class="buttons" id="btnSubmitDates" type="submit" onclick="fetchBitcoinHistoricData();">Begin Search</button>
@@ -244,7 +238,7 @@
             <h1>NEWS</h1>
             <p class="subheader2">Today's Top Headlines</p>
          </form>
-         <div class="stories transbox2">
+         <div class="stories transbox">
          </div>
       </section>
 

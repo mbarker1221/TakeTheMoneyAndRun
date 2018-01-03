@@ -1,6 +1,6 @@
 body {
    /* background: linear-gradient(to bottom, #d7ffc6, #fff);*/
-   background-image: url("https://mail.google.com/mail/u/0/?ui=2&ik=1bc9c0d66d&view=att&th=160b0ec0e71e2064&attid=0.1&disp=safe&realattid=f_jbvyv9bg0&zw");
+   background-image: url("https://thumbs.dreamstime.com/t/blockchain-blurred-white-background-d-illustration-83377750.jpg");
    font-weight: 800;
    position: static;
    background-size: cover;
@@ -11,11 +11,12 @@ body {
    background-repeat: repeat;
 }
 
+
 .icon {
    display: inline-block;
    width: 80px;
    height: 50px;
-   margin-left: -80px;
+   margin-left: -40px;
 }
 
 li {
@@ -128,21 +129,6 @@ input:focus {
    text-shadow: 1px 1px black;
 }
 
-.transbox {
-   background-color: #ffffff;
-   filter: alpha(opacity=80);
-   outline-color: invert;
-   border-radius: 5px;
-   border-color: #8b0000;
-   opacity: .9;
-   padding: 10px;
-   font-weight: 800;
-   border: 7px ridge #007fAA;
-   max-width: 600px;
-   max-height: 600px;
-   margin: 20px auto;
-}
-
 .buy {
    font-size: 20px;
    color: #8b0000;
@@ -176,6 +162,22 @@ input:focus {
    color: #8b0000;
    text-shadow: 1px 1px black;
 }
+
+.transbox {
+   background-color: #ffffff;
+   filter: alpha(opacity=80);
+   outline-color: invert;
+   border-radius: 5px;
+   border-color: #8b0000;
+   opacity: .9;
+   padding: 10px;
+   font-weight: 800;
+   border: 7px ridge #007fAA;
+   max-width: 600px;
+   max-height: 600px;
+   margin: 20px auto;
+}
+
 
 .transbox2 {
    background-color: #ffffff;

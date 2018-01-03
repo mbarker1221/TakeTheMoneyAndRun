@@ -96,13 +96,10 @@
                   <p class="difference" id="difference" aria-live="assertive" hidden></p>
 
                   <button class="buttons" id="btnSubmitDates" type="submit" onclick="fetchBitcoinHistoricData();">Begin Search</button>
-                  <br />
+
                   <button class="buttons" id="btnResetDates" onclick="resetHistoricData()" hidden="hidden">New Search</button>
                   <br />
                </section>
-               <br />
-              
-
             </fieldset>
          </form>
       </section>
@@ -175,54 +172,54 @@
             <input type='number' name='bitcoinAmount' id="bitcoinAmount" placeholder="0" title="Number of bitcoins to exchange" required/>
             <button class="buttons" id="btnCalculateRates" type="submit" onclick="fetchBitcoinExchangeData();">Calculate</button>
 
-            <div class="exchangeOut" id="exchangeOutput">
-               <table border="5" class="exchangeOutput">
-                  <tr>
-                     <th colspan="2"><span class="exchangeRates">Market Exchange Rates<br></span>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th>Market</th>
-                     <th>Value</th>
-                  </tr>
-                  <tr>
-                     <td>USD - United States Dollar</td>
-                     <td><span id="USD"></span></td>
-                  </tr>
-                  <tr>
-                     <td>GBP - Great British Pound</td>
-                     <td><span id="GBP"></span></td>
-                  </tr>
-                  <tr>
-                     <td>CNY - New Chinese Yen</td>
-                     <td><span id="CNY"></span></td>
-                  </tr>
-                  <tr>
-                     <td>JPY - Japanese Yen</td>
-                     <td><span id="JPY"></span></td>
-                  </tr>
-                  <tr>
-                     <td>EUR - Euro</td>
-                     <td><span id="EUR"></span></td>
-                  </tr>
-                  <tr>
-                     <td>TWD - Taiwanese Dollar</td>
-                     <td><span id="TWD"></span></td>
-                  </tr>
-                  <tr>
-                     <td>RUB - Russian Ruble</td>
-                     <td><span id="RUB"></span></td>
-                  </tr>
-                  <tr>
-                     <td>CHF - Swiss Franc</td>
-                     <td><span id="CHF"></span></td>
-                  </tr>
-                  <tr>
-                     <td>AUD - Australian Dollar</td>
-                     <td><span id="AUD"></span></td>
-                  </tr>
-               </table>
-            </div>
+
+            <table border="5" class="exchangeOutput">
+               <tr>
+                  <th colspan="2"><span class="exchangeRates">Market Exchange Rates<br></span>
+                  </th>
+               </tr>
+               <tr>
+                  <th>Market</th>
+                  <th>Value</th>
+               </tr>
+               <tr>
+                  <td>USD - United States Dollar</td>
+                  <td><span id="USD"></span></td>
+               </tr>
+               <tr>
+                  <td>GBP - Great British Pound</td>
+                  <td><span id="GBP"></span></td>
+               </tr>
+               <tr>
+                  <td>CNY - New Chinese Yen</td>
+                  <td><span id="CNY"></span></td>
+               </tr>
+               <tr>
+                  <td>JPY - Japanese Yen</td>
+                  <td><span id="JPY"></span></td>
+               </tr>
+               <tr>
+                  <td>EUR - Euro</td>
+                  <td><span id="EUR"></span></td>
+               </tr>
+               <tr>
+                  <td>TWD - Taiwanese Dollar</td>
+                  <td><span id="TWD"></span></td>
+               </tr>
+               <tr>
+                  <td>RUB - Russian Ruble</td>
+                  <td><span id="RUB"></span></td>
+               </tr>
+               <tr>
+                  <td>CHF - Swiss Franc</td>
+                  <td><span id="CHF"></span></td>
+               </tr>
+               <tr>
+                  <td>AUD - Australian Dollar</td>
+                  <td><span id="AUD"></span></td>
+               </tr>
+            </table>
+
             <p class="buy">
                To buy or sell Bitcoin, or to get a FREE WALLET, click <a href="https://www.bitcoin.com/choose-your-wallet/bitcoin-com-wallet">here</a>
             </p>
@@ -232,9 +229,9 @@
 
       <section class="news-page page">
          <form class="format" name="n-form" action="#" onsubmit="return false;">
-           <h1>NEWS</h1>
+            <h1>NEWS</h1>
             <p class="subheader2">Today's Top Headlines</p>
-         
+
             <div class="stories transbox">
             </div>
          </form>

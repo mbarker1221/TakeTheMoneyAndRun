@@ -200,13 +200,11 @@ function showNewsPage() {
    getNews();
 }
 
-
 function getNews() {
    $.getJSON(news, function(data) {
       showNews(data);
    });
 }
-
 
 function showNews(results) {
    let article = `
@@ -217,25 +215,24 @@ function showNews(results) {
    <a class="title" href="${results.articles[0].url}" target="_blank">${results.articles[0].title}<alt="${results.articles[0].description}"></a><br /><br /><br />
    
    
-   <a class="link" href="${results.articles[1].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[1].urlToImage}"></a><br />
+    <a class="link" href="${results.articles[1].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[1].urlToImage}"></a><br />
    
    <a class="title" href="${results.articles[1].url}" target="_blank">${results.articles[1].title} <alt="${results.articles[1].description}"></a><br /><br /><br />
    
   
-   <a class="link" href="${results.articles[2].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[2].urlToImage}"></a><br />
+    <a class="link" href="${results.articles[2].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[2].urlToImage}"></a><br />
    
    <a class="title" href="${results.articles[2].url}" target="_blank">${results.articles[2].title}<alt="${results.articles[2].description}"></a><br /><br /><br />
    
    
-   <a class="link" href="${results.articles[3].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[3].urlToImage}"></a><br />
+    <a class="link" href="${results.articles[3].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[3].urlToImage}"></a><br />
    
    <a class="title" href="${results.articles[3].url}" target="_blank">${results.articles[3].title}<alt="${results.articles[3].description}"></a><br /><br />
    
-    <a class="link" href="${results.articles[4].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[4].urlToImage}"></a><br />
+       <a class="link" href="${results.articles[4].urlToImage}" target="_blank"><img class="thumb" src="${results.articles[4].urlToImage}"></a><br />
    
    <a class="title" href="${results.articles[4].url}" target="_blank">${results.articles[4].title} <alt="${results.articles[4].description}"></a><br /><br /><br />
   
-   
    `;
    $('.stories').html(article);
 }

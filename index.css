@@ -53,6 +53,7 @@ li a:active {
 
 .link {
    font-size: 20px;
+   color: black;
 }
 
 h1 {
@@ -176,21 +177,7 @@ input:focus {
    padding: 10px;
    font-weight: 800;
    border: 7px ridge #007fAA;
-   max-width: 600px;
-   margin: 20px auto;
-}
-
-.transbox2 {
-   background-color: #ffffff;
-   filter: alpha(opacity=80);
-   outline-color: invert;
-   border-radius: 5px;
-   border-color: #8b0000;
-   opacity: .9;
-   padding: 10px;
-   font-weight: 800;
-   border: 7px ridge #007fAA;
-   max-width: 600px;
+   max-width: 500px;
    margin: 20px auto;
 }
 
@@ -198,10 +185,6 @@ input:focus {
    display: inline-block;
    max-width: 200px;
    max-height: 200px;
-   color: black;
-}
-
-.link {
    color: black;
 }
 

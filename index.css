@@ -21,7 +21,7 @@ li {
    list-style: none;
    float: right;
    font-weight: 600;
-   padding-top: 20px;
+   padding: 8px;
 }
 
 nav {
@@ -44,7 +44,9 @@ li a {
    border: 3px #007faa groove;
    height: 100%;
    margin-right: 5px;
-   padding: 8px;
+   padding: 5px;
+   overflow: hidden;
+   text-align: center;
 }
 
 li a:hover:not(.active) {

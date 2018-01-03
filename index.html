@@ -17,21 +17,25 @@
 
       <section>
          <nav role="navigation" class="nav-bar" id="nav-start">
-            <img class="icon" src="http://cfile7.uf.tistory.com/image/2254FD4658D34FC5461F11" alt="red Letter C" />
+
+            <a data-page="start-page" href="#"><img class="icon" src="http://cfile7.uf.tistory.com/image/2254FD4658D34FC5461F11" alt="bitcoin logo" /></a>
             <li><a data-page="news-page" class="menu" id="news-page" href="#" onclick="getNews()">News</a></li>
-            <li><a data-page="calc-page" class="menu" id="calc-page" href="#">Bitcoin Exchange</a></li>
-            <li><a data-page="crypto-page" class="menu" id="crypto-page" href="#" onclick="fetchCryptoExchangeRates()">Crypto Rates</a></li>
-            <li><a data-page="history-page" class="menu" id="history-page" href="#">Historic Data</a></li>
-            <li><a data-page="start-page" class="menu" id="start-page" href="#">Home Page</a></li>
+            <li><a data-page="calc-page" class="menu" id="calc-page" href="#">Exchange</a></li>
+            <li><a data-page="crypto-page" class="menu" id="crypto-page" href="#" onclick="fetchCryptoExchangeRates()">Crypto</a></li>
+            <li><a data-page="history-page" class="menu" id="history-page" href="#">Historic</a></li>
+            <li><a data-page="start-page" class="menu" id="start-page" href="#">Home</a></li>
+
          </nav>
       </section>
 
 
       <section class="start-page page">
-         <form class="format" name="cr-form" action="#" onsubmit="return false;">
-            <h1>BITMETRICS</h1>
 
-            <p class="subheader2">Bitcoin Tracker and Exchange Calculator </p>
+         <h1>BITMETRICS</h1>
+
+         <p class="subheader2">Bitcoin Tracker and Exchange Calculator </p>
+         <form class="format" name="cr-form" action="#" onsubmit="return false;">
+
 
             <table border="5">
                <tr>
@@ -77,11 +81,15 @@
       </section>
 
       <section class='history-page page'>
+
+         <h1>LEGACY PRICING</h1>
+         <p class="subheader2">Enter dates for custom search:</p>
+
          <form class="format" name="h-form" action="#" onsubmit="return false;">
             <fieldset class="fSet">
 
-               <h1>LEGACY PRICING</h1>
-               <p class="subheader2">Enter dates for custom search:</p>
+
+
                <section class="transbox">
                   <p class="subheader2" id="enterDates">Select dates:</p>
 
@@ -106,9 +114,10 @@
 
 
       <section class="crypto-page page">
+         <h1>CRYPTO EXCHANGE</h1>
+         <p class="subheader2">Results calculated in USD</p>
          <form class="format" name="cr-form" action="#" onsubmit="return false;">
-            <h1>CRYPTO EXCHANGE</h1>
-            <p class="subheader2">Results calculated in USD</p>
+
             <table border="5" class="crypto">
                <tr>
                   <th colspan="2" class="firstValue">
@@ -165,10 +174,11 @@
 
 
       <section class='calc-page page'>
-         <form class="format" name="c-form" action="#" onsubmit="return false;">
-            <h1>WHAT'S IN YOUR WALLET?</h1>
+         <h1>WHAT'S IN YOUR WALLET?</h1>
 
-            <p class="subheader2">Enter number of bitcoins to exchange:</p>
+         <p class="subheader2">Enter number of bitcoins to exchange:</p>
+         <form class="format" name="c-form" action="#" onsubmit="return false;">
+
             <input type='number' name='bitcoinAmount' id="bitcoinAmount" placeholder="0" title="Number of bitcoins to exchange" required/>
             <button class="buttons" id="btnCalculateRates" type="submit" onclick="fetchBitcoinExchangeData();">Calculate</button>
 
@@ -228,9 +238,11 @@
 
 
       <section class="news-page page">
+
+         <h1>NEWS</h1>
+         <p class="subheader2">Today's Top Headlines</p>
          <form class="format" name="n-form" action="#" onsubmit="return false;">
-            <h1>NEWS</h1>
-            <p class="subheader2">Today's Top Headlines</p>
+
 
             <div class="stories transbox">
             </div>

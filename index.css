@@ -3,7 +3,7 @@ html {
 }
 
 body {
-   background-image: url("https://thumbs.dreamstime.com/t/blockchain-blurred-white-background-d-illustration-83377750.jpg");
+   background-image: url("https://ak7.picdn.net/shutterstock/videos/31077397/thumb/1.jpg");
    font-weight: 800;
    position: static;
    background-size: 100%;
@@ -17,13 +17,13 @@ body {
    display: inline-block;
    width: 80px;
    height: 60px;
-   float: left;
+   float-left;
 }
 
 li {
    list-style: none;
    float: right;
-   font-weight: 600;
+   font-weight: 500;
    padding: 8px;
 }
 
@@ -32,26 +32,25 @@ nav {
    background-color: black;
    margin: auto 0;
    font-weight: 500;
-   
 }
 
 nav li {
    width: 16%;
    padding-left: 2px;
    display: block;
-  
 }
 
 li a {
    display: block;
    color: white;
    font-size: 15px;
-    border: 3px #007faa groove;
+   border: 3px #007faa groove;
    height: 100%;
    margin-right: 5px;
    padding: 5px;
    overflow: hidden;
    text-align: center;
+   border-radius: 5px;
 }
 
 li a:hover:not(.active) {
